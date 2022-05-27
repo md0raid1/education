@@ -54,12 +54,62 @@
 // message = '';
 // }
 
-// let login = prompt('Введите логин', '')
-// let message
-// login == 'Сотрудник' ? 
-//   message = ('Привет') :
-// login == 'Директор' ? 
-//   message = ('Здравствуйте') :
+// let message = login = prompt('Введите логин', '')
+// login == 'Сотрудник' ? message = ('Привет') :
+// login == 'Директор' ? message = ('Здравствуйте') :
 // login == '' ? message = ('Нет логина') :
-//   message = ''
+// message = ''
 // alert (message)
+
+// Логические операторы "||", "&&", "!"
+
+// let age = prompt('How old are you?', '');
+
+// if (age >= 14 && age <=90) {
+//   alert('Ok');
+// } else {
+//   alert('out of range');
+// }
+
+// if (age <= 14 || age >= 90) {
+//   alert('OK')
+// } else {
+//   alert('out of range')
+// }
+
+// if (!(age >= 14 && age <= 90)) {
+//   alert('OK')
+// } else{
+//   alert('out of range')
+// }
+
+// if (-1 || 0) {
+//   console.log('first')
+// }
+// if (-1 && 0) {
+//   console.log('second')
+// }
+// if (null || -1 && 1) {
+//   console.log('third')
+// }
+
+
+
+// let loginName = prompt('Введите логин', '')
+
+// if (loginName == 'Admin') {
+//   let password = prompt('Введите пароль', '');
+//   if (password == 'Я главный') {
+//     alert('Здравствуйте')
+//   }
+//   else if (password == null || password == '') {
+//     alert('Отменено')
+//   }
+//   else {
+//     alert('Неверный пароль')
+//   }
+// } else if (loginName == null || loginName == '') {
+//   alert('Отменено')
+// } else {
+//   alert('Я вас не знаю')
+// }
