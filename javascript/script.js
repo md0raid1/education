@@ -113,3 +113,32 @@
 // } else {
 //   alert('Я вас не знаю')
 // }
+
+// while, do-while, for
+
+// for (let i = 0; i <= 10; i++) {
+//   if (i % 2 != 0) continue;
+//   console.log(i);
+// }
+
+// for (let i = 0; i < 3; i++) {
+//   console.log( `number ${i}!` );
+// }
+
+// let i = 0
+// do {
+//   console.log( `number ${i}!` );
+//   i++
+// } while(i < 3)
+
+// while(i = prompt('Введите число больше 100')){
+//   if (i > 100 || i == '') break;
+//   else if (i <= 100) continue;
+// }
+
+// let i;
+
+// do {
+//   i = prompt('Введите число больше 100?', 0)
+// }while(i <= 100 && i)
+
